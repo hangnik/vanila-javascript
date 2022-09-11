@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Mr+Dafoe&family=Permanent+Marker&family=East+Sea+Dokdo&family=Wallpoet&display=swap');
+.hidden {
+    /* html 요소 숨기기 */
+    display: none;
+}
+
+body {
+    margin: 0;
+    background: no-repeat center;
+    background-size: cover;
+    height: 100vh;
+    font-family: 'East Sea Dokdo', cursive;
+}
+
+h3 {
+    font-size: 40px;
+    color: #3d3d3d;
+    margin: 0;
+}
+
+#left-div {
+    float: left;
+    margin: 0 0 0 100px;
+}
+
+#center-div {
+    float: left;
+    margin: 150px 0 0 100px;
+}
+
+/* 시간 */
+#clock-div {
+    margin: 100px 0 0 0;
+}
+
+#clock-div>span {
+    font-size: 50px;
+    color: #3d3d3d;
+}
+
+#clock {
+    width: 400px;
+    font-family: 'Wallpoet', cursive;
+    font-size: 80px;
+    color: rgb(246, 246, 247);
+    text-shadow: 0 0 7px #fff, 0 0 10px #fff, 0 0 21px #fff, 0 0 42px #000000;
+    margin: 5px 0 0 0;
+}
+
+/* 할일 */
+#todo-div {
+    background: url("../img/paper1.png") no-repeat center;
+    background-size: cover;
+    width: 350px;
+    height: 830px;
+    float: left;
+    margin: 20px 0 0 100px;
+}
+
+#todo-div h3 {
+    margin: 150px 0 0 100px;
+}
+
+#todo-form {
+    margin: 20px;
+}
+
+#todo-form input {
+    width: 300px;
+}
+
+#todo-list li>span {
+    font-size: 30px;
+}
+
+#todo-list li>button {
+    background-color:transparent;
+    border: none;
+}
+
+/* 명언 */
+#quote {
+    background: url("../img/paper2.png") no-repeat center;
+    background-size: cover;
+    width: 400px;
+    height: 240px;
+    margin: 120px 0 0 0;
+}
+
+#quote h3 {
+    padding: 70px 10px 0px 50px;
+}
+
+#quote span {
+    font-size: 22px;
+    display: inline-block;
+    text-align: center;
+}
+
+#quote span:last-child {
+    margin: 0 0 0 140px;
+}
+
+/* 날씨 */
+#weather {
+    background: url("../img/paper3.png") no-repeat center;
+    background-size: cover;
+    width: 200px;
+    height: 220px;
+    margin: 0 0 0 20px;
+}
+
+#weather h3 {
+    padding: 60px 10px 0 50px;
+}
+
+#weather span {
+    font-size: 30px;
+    margin: 20px 10px 10px 50px;
+}
+
+/* 로그인 */
+#login-div {
+    background: url("../img/paper4.png") no-repeat center;
+    background-size: cover;
+    width: 400px;
+    height: 430px;
+    margin: 50px 0 0 0;
+}
+
+#login-div>h1 {
+    padding: 100px 30px 30px 30px;
+    font-size: 80px;
+}
+
+#login-form {
+    padding: 100px 20px 20px 20px;
+}
+
+#login-form input {
+    width: 280px;
+}
+
+#login-div img {
+    position: relative;
+    left: 170px;
+    bottom: 70px;
+}
