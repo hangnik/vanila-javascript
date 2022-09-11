@@ -17,4 +17,4 @@ bgimage.src = `img/${choseImage}`;
 // appendChild() : 해당 태그 가장 뒤에 추가
 // prepend() : 해당 태그 가장 앞에 추가
 //document.body.appendChild(bgimage);
-document.body.style.backgroundImage = "url(" + `img/${choseImage}` + ")";
+document.body.style.backgroundImage = "url(" + `../img/${choseImage}` + ")";
